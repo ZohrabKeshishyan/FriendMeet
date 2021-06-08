@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '13.0'
+
+use_frameworks!
+
+target 'ChatSDKSwift' do
+
+  pod "ChatSDK", "5.0.1"
+  pod "ChatSDKFirebase", "5.0.1"
+  pod "ChatSDKFirebase/Upload", "5.0.1"
+  pod "ChatSDKFirebase/Push", "5.0.1"
+  
+end
